@@ -8,7 +8,7 @@ def login():
 			}
 	headers = ""
 	response = requests.post(url=url,data=data,headers=headers)
-	asaert response.status_code == 200
+	asaert response.status_code == 204
 
 if __name__== "__main__":
 	login()
